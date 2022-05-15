@@ -1,0 +1,225 @@
+/*Cabeçalho*/
+header{
+    font-family: Arial;
+    text-align: center;
+    color: #DAC6B9;
+    background-color: #042326;
+    margin: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.092);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 8%; 
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px #FACFCE ;
+    margin: 2%;
+}
+
+header a{
+    margin-left: 20%;
+    height: 100%;
+}
+
+header a img{
+    width: 8%; 
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px #FACFCE ;
+    margin: 0 ;
+}
+
+/*navegador*/
+nav{
+    display: flex;
+    margin: 25px;
+    padding: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.092);
+    align-items: center;
+}
+
+
+nav ul{
+    display:flex;
+    margin: 10;
+    list-style: none;
+    align-items: initial;
+}
+
+ul li{
+    padding: 5px;
+}
+
+ul li a {
+    color: #DAC6B9;
+}
+
+
+body{
+    font-family: Arial;
+    text-align: center;
+    color: #DAC6B9;
+    background-color: #042326;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 18px;
+
+}
+
+
+
+/* Populando IDs */
+
+    /* INFANCIA */
+    .containerinfancia{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction:unset;
+        margin: 5%;
+    }
+
+    #infancia{
+        display: inline-block;
+        font-family: Lucida Handwriting;
+        text-align: justify;
+        color: #BFBFBF;
+        background-color: #127369;
+        padding: 20px;
+        margin-right: 10%;
+        box-sizing: content-box;
+        box-decoration-break: slice;
+        border: 5px solid #127369;
+        border-radius: 25px;
+        height: 50%;
+        width: 80%;
+    }
+
+    .containerinfancia img{
+        width: 25%; 
+        height: 50%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px 5px #FACFCE ;
+    }
+
+    /* containerjuventude */
+    .containerjuventude{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction:unset;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #juventude{
+        display: inline-block;
+        font-family: Lucida Handwriting;
+        text-align: justify;
+        color: #BFBFBF;
+        background-color: #127369;
+        padding: 20px;
+        margin-left: 5%;
+        box-sizing: content-box;
+        box-decoration-break: slice;
+        border: 5px solid #127369;
+        border-radius: 25px;
+        width: 60%;
+    }
+
+    .containerjuventude .imagenscrianca{
+        display:block;
+        width: 30%;
+        height: 100%;
+    }
+    .containerjuventude img{
+        display: block;
+        border-radius: 50%;
+        box-shadow: 0 0 5px 5px #FACFCE ;
+        width: 100%;
+        margin-top: 15%;
+        height: 100%;
+    }
+
+    /* ADOLESCENCIA */
+    .containeradolescencia{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction:unset;
+        margin: 5%;
+    }
+
+    #adolescencia{
+        display: inline-block;
+        font-family: Lucida Handwriting;
+        text-align: justify;
+        color: #BFBFBF;
+        background-color: #127369;
+        padding: 20px;
+        margin-right: 5%;
+        box-sizing: content-box;
+        box-decoration-break: slice;
+        border: 5px solid #127369;
+        border-radius: 25px;
+        height: 50%;
+        width: 80%;
+    }
+
+    .containeradolescencia .imagensadolescencia{
+        display:block;
+        width: 35%;
+        height: 100%;
+    }
+
+    .containeradolescencia .imagensadolescencia img{
+        display: block;
+        border-radius: 50%;
+        box-shadow: 0 0 5px 5px #FACFCE ;
+        width: 100%;
+        margin-top: 15%;
+        height: 100%;
+    }
+
+    /* containerjuventude */
+    .containeradulto{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction:unset;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #adulto{
+        display: inline-block;
+        font-family: Lucida Handwriting;
+        text-align: justify;
+        color: #BFBFBF;
+        background-color: #127369;
+        padding: 20px;
+        margin-right: 5%;
+        box-sizing: content-box;
+        box-decoration-break: slice;
+        border: 5px solid #127369;
+        border-radius: 25px;
+        width: 60%;
+        height: 100%;
+    }
+
+    .containeradulto img{
+        display: block;
+        border-radius: 50%;
+        box-shadow: 0 0 5px 5px #FACFCE ;
+        width: 30%;
+    }
+
+footer{
+    margin-top: 20px;
+    padding: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.092);
+}
